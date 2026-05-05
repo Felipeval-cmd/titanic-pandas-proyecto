@@ -12,18 +12,20 @@ desarrollado como proyecto de la materia Programación II -- Ciencia de Datos.
 | Adrián Felipe Valencia morera | Líder de datos y reporte |
 
 ## Objetivos
--Cargar y explorar los datos del Titanic
--Analizar variables y estadísticas descriptivas
--Responder preguntas sobre supervivencia
--Generar gráficos que permitan exponer los análisis y descripciones a realizar
+- Cargar y explorar los datos del Titanic
+- Analizar variables y estadísticas descriptivas
+- Responder preguntas sobre supervivencia
+- Generar gráficos que permitan exponer los análisis y descripciones a realizar
 
 ## Estructura del proyecto
+```
 titanic-pandas-proyecto/
-├── data/           # Instrucciones para descarga de datos
+├── data/           # Instrucciones de descarga de datos
 ├── notebooks/      # Notebook principal del análisis
 ├── src/            # Scripts de Python
-├── outputs/        # Tablas y gráficos
+├── outputs/        # Tablas y gráficos generados
 └── docs/           # Informe final
+```
 
 ## Cómo ejecutar el proyecto
 1. Clonar el repositorio
