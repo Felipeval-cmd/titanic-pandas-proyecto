@@ -29,6 +29,9 @@ titanic-pandas-proyecto/
 
 ## Cómo ejecutar el proyecto
 1. Clonar el repositorio
+```bash
+git clone https://https://github.com/Felipeval-cmd/titanic-pandas-proyecto
+```
 2. Descarga los datos siguiendo las instrucciones en `data/README.md`
 3. Instala las librerías necesarias:
 ```bash
