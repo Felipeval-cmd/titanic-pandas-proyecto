@@ -216,6 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
 # Datos del Titanic - NO subir
 data/train.csv
 data/test.csv
