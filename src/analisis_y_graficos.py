@@ -2,6 +2,17 @@
 
 import seaborn as sns
 import matplotlib.pyplot as plt
+import pandas as pd
+
+df_test = pd.read_csv('../data/train.csv')
+df_train = pd.read_csv('../data/train.csv')
+df_test['Source'] = 'Test'
+df_train['Source'] = 'Train'
+df_junto = pd.concat([df_test, df_train], ignore_index=True)
+
+df_test['Familiares'] = df_test['SibSp'] + df_test['Parch']
+df_train['Familiares'] = df_train['SibSp'] + df_train['Parch']
+df_test['Survived'] = None
 
 def generar_reporte_graficos(df_junto):
     # === GRAFICO 1: HISTOGRAMA DE EDAD ===

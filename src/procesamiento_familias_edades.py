@@ -1,6 +1,15 @@
 # proyecto titanic - procesamiento de variables de familias y grupos etarios
-
 import pandas as pd
+
+df_test = pd.read_csv('../data/train.csv')
+df_train = pd.read_csv('../data/train.csv')
+df_test['Source'] = 'Test'
+df_train['Source'] = 'Train'
+df_junto = pd.concat([df_test, df_train], ignore_index=True)
+
+df_test['Familiares'] = df_test['SibSp'] + df_test['Parch']
+df_train['Familiares'] = df_train['SibSp'] + df_train['Parch']
+df_test['Survived'] = None
 
 # calculamos la variable familiares para que no de error
 df_junto['Familiares'] = df_junto['SibSp'] + df_junto['Parch']
