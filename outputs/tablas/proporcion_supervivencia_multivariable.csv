@@ -1,0 +1,36 @@
+Sex,grupo_etario,Tiene_Cabina,Survived,Porcentaje (%)
+female,Adolescentes,No,1,66.66666666666666
+female,Adolescentes,No,0,33.33333333333333
+female,Adolescentes,Sí,1,100.0
+female,Adultos,No,1,64.16666666666667
+female,Adultos,No,0,35.833333333333336
+female,Adultos,Sí,1,96.875
+female,Adultos,Sí,0,3.125
+female,Mayores,No,1,100.0
+female,Mayores,Sí,1,86.66666666666667
+female,Mayores,Sí,0,13.333333333333334
+female,Niños,No,1,65.38461538461539
+female,Niños,No,0,34.61538461538461
+female,Niños,Sí,1,50.0
+female,Niños,Sí,0,50.0
+female,No Registra,No,1,63.04347826086957
+female,No Registra,No,0,36.95652173913043
+female,No Registra,Sí,1,100.0
+male,Adolescentes,No,0,91.66666666666666
+male,Adolescentes,No,1,8.333333333333332
+male,Adolescentes,Sí,1,100.0
+male,Adultos,No,0,87.41007194244604
+male,Adultos,No,1,12.589928057553957
+male,Adultos,Sí,0,56.92307692307692
+male,Adultos,Sí,1,43.07692307692308
+male,Mayores,No,0,93.33333333333333
+male,Mayores,No,1,6.666666666666667
+male,Mayores,Sí,0,77.27272727272727
+male,Mayores,Sí,1,22.727272727272727
+male,Niños,No,0,50.0
+male,Niños,No,1,50.0
+male,Niños,Sí,1,100.0
+male,No Registra,No,0,89.28571428571429
+male,No Registra,No,1,10.714285714285714
+male,No Registra,Sí,0,66.66666666666666
+male,No Registra,Sí,1,33.33333333333333
