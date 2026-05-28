@@ -6,10 +6,10 @@ desarrollado como proyecto de la materia Programación II -- Ciencia de Datos.
 
 ## Integrantes
 
-| Angie Natalia Buitrago Cifuentes | Líder de datos y repositorio |
+| Angie Natalia Buitrago Cifuentes | Líder de datos y reporte |
 
 
-| Adrián Felipe Valencia morera | Líder de datos y reporte |
+| Adrián Felipe Valencia morera | Líder de datos y repositorio |
 
 ## Objetivos
 - Cargar y explorar los datos del Titanic
